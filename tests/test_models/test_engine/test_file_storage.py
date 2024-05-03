@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """
 Contains the TestFileStorageDocs classes
@@ -113,3 +114,4 @@ class TestFileStorage(unittest.TestCase):
         with open("file.json", "r") as f:
             js = f.read()
         self.assertEqual(json.loads(string), json.loads(js))
+
