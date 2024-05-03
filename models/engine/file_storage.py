@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """
 Contains the FileStorage class
@@ -81,3 +82,4 @@ class FileStorage:
     def count(self, cls=None):
         '''class that is (optional)'''
         return (len(self.all(cls)))
+
